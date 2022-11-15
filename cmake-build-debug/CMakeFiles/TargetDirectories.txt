@@ -1,0 +1,8 @@
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/dsa_for_fat.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/palindrome.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/llinandout.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/bubblell.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/mergesorted.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/reversell.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug/CMakeFiles/rebuild_cache.dir

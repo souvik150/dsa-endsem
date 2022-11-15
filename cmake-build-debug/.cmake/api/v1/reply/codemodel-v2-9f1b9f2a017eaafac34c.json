@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dsa_for_fat",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bubblell::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bubblell-Debug-96f4f3e67767cf02aa95.json",
+					"name" : "bubblell",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsa_for_fat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsa_for_fat-Debug-b6306633d55fafa3265c.json",
+					"name" : "dsa_for_fat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "llinandout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-llinandout-Debug-b884ad7151b9124f3479.json",
+					"name" : "llinandout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mergesorted::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mergesorted-Debug-5e7819de27724581793f.json",
+					"name" : "mergesorted",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindrome-Debug-50f1b6d78a728b346894.json",
+					"name" : "palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reversell::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reversell-Debug-d1d53e5936cb6cd30f52.json",
+					"name" : "reversell",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug",
+		"source" : "/home/souvik150/CLionProjects/dsa-for-fat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
