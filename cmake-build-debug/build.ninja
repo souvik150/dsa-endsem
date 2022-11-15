@@ -72,6 +72,92 @@ build dsa_for_fat: CXX_EXECUTABLE_LINKER__dsa_for_fat_Debug CMakeFiles/dsa_for_f
   TARGET_PDB = dsa_for_fat.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target bfs
+
+
+#############################################
+# Order-only phony target for bfs
+
+build cmake_object_order_depends_target_bfs: phony || CMakeFiles/bfs.dir
+
+build CMakeFiles/bfs.dir/graph-bfs.cpp.o: CXX_COMPILER__bfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-bfs.cpp || cmake_object_order_depends_target_bfs
+  DEP_FILE = CMakeFiles/bfs.dir/graph-bfs.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/bfs.dir
+
+build CMakeFiles/bfs.dir/graph-cycleDetect.cpp.o: CXX_COMPILER__bfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-cycleDetect.cpp || cmake_object_order_depends_target_bfs
+  DEP_FILE = CMakeFiles/bfs.dir/graph-cycleDetect.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/bfs.dir
+
+build CMakeFiles/bfs.dir/graph-printPathGraph.cpp.o: CXX_COMPILER__bfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-printPathGraph.cpp || cmake_object_order_depends_target_bfs
+  DEP_FILE = CMakeFiles/bfs.dir/graph-printPathGraph.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/bfs.dir
+
+build CMakeFiles/bfs.dir/graph-shortestPath.cpp.o: CXX_COMPILER__bfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-shortestPath.cpp || cmake_object_order_depends_target_bfs
+  DEP_FILE = CMakeFiles/bfs.dir/graph-shortestPath.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/bfs.dir
+
+build CMakeFiles/bfs.dir/graph-connected.cpp.o: CXX_COMPILER__bfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-connected.cpp || cmake_object_order_depends_target_bfs
+  DEP_FILE = CMakeFiles/bfs.dir/graph-connected.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/bfs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bfs
+
+
+#############################################
+# Link the executable bfs
+
+build bfs: CXX_EXECUTABLE_LINKER__bfs_Debug CMakeFiles/bfs.dir/graph-bfs.cpp.o CMakeFiles/bfs.dir/graph-cycleDetect.cpp.o CMakeFiles/bfs.dir/graph-printPathGraph.cpp.o CMakeFiles/bfs.dir/graph-shortestPath.cpp.o CMakeFiles/bfs.dir/graph-connected.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/bfs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bfs
+  TARGET_PDB = bfs.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dfs
+
+
+#############################################
+# Order-only phony target for dfs
+
+build cmake_object_order_depends_target_dfs: phony || CMakeFiles/dfs.dir
+
+build CMakeFiles/dfs.dir/graph-dfs.cpp.o: CXX_COMPILER__dfs_Debug /home/souvik150/CLionProjects/dsa-for-fat/graph-dfs.cpp || cmake_object_order_depends_target_dfs
+  DEP_FILE = CMakeFiles/dfs.dir/graph-dfs.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/dfs.dir
+  OBJECT_FILE_DIR = CMakeFiles/dfs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dfs
+
+
+#############################################
+# Link the executable dfs
+
+build dfs: CXX_EXECUTABLE_LINKER__dfs_Debug CMakeFiles/dfs.dir/graph-dfs.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/dfs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = dfs
+  TARGET_PDB = dfs.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target palindrome
 
 
@@ -141,6 +227,12 @@ build CMakeFiles/llinandout.dir/linkedlist/deleteMNnodes.cpp.o: CXX_COMPILER__ll
   OBJECT_DIR = CMakeFiles/llinandout.dir
   OBJECT_FILE_DIR = CMakeFiles/llinandout.dir/linkedlist
 
+build CMakeFiles/llinandout.dir/linkedlist/evenAfterOdd.cpp.o: CXX_COMPILER__llinandout_Debug /home/souvik150/CLionProjects/dsa-for-fat/linkedlist/evenAfterOdd.cpp || cmake_object_order_depends_target_llinandout
+  DEP_FILE = CMakeFiles/llinandout.dir/linkedlist/evenAfterOdd.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/llinandout.dir
+  OBJECT_FILE_DIR = CMakeFiles/llinandout.dir/linkedlist
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target llinandout
@@ -149,7 +241,7 @@ build CMakeFiles/llinandout.dir/linkedlist/deleteMNnodes.cpp.o: CXX_COMPILER__ll
 #############################################
 # Link the executable llinandout
 
-build llinandout: CXX_EXECUTABLE_LINKER__llinandout_Debug CMakeFiles/llinandout.dir/linkedlist/inandout.cpp.o CMakeFiles/llinandout.dir/linkedlist/bubblell.cpp.o CMakeFiles/llinandout.dir/linkedlist/swapNodes.cpp.o CMakeFiles/llinandout.dir/linkedlist/kreverse.cpp.o CMakeFiles/llinandout.dir/linkedlist/deleteMNnodes.cpp.o
+build llinandout: CXX_EXECUTABLE_LINKER__llinandout_Debug CMakeFiles/llinandout.dir/linkedlist/inandout.cpp.o CMakeFiles/llinandout.dir/linkedlist/bubblell.cpp.o CMakeFiles/llinandout.dir/linkedlist/swapNodes.cpp.o CMakeFiles/llinandout.dir/linkedlist/kreverse.cpp.o CMakeFiles/llinandout.dir/linkedlist/deleteMNnodes.cpp.o CMakeFiles/llinandout.dir/linkedlist/evenAfterOdd.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/llinandout.dir
   POST_BUILD = :
@@ -172,6 +264,60 @@ build CMakeFiles/bubblell.dir/linkedlist/bubblell.cpp.o: CXX_COMPILER__bubblell_
   OBJECT_DIR = CMakeFiles/bubblell.dir
   OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/linkedlist
 
+build CMakeFiles/bubblell.dir/sorting/mainsorting.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/mainsorting.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/mainsorting.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/sorting/mergesort.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/mergesort.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/mergesort.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/sorting/quicksort.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/quicksort.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/quicksort.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/sorting/search.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/search.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/search.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/sorting/countingsort.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/countingsort.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/countingsort.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/sorting/heapsort.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/sorting/heapsort.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = CMakeFiles/bubblell.dir/sorting/heapsort.cpp.o.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubblell.dir/sorting
+
+build CMakeFiles/bubblell.dir/stack&queues/inftopos.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/stack&queues/inftopos.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = "CMakeFiles/bubblell.dir/stack&queues/inftopos.cpp.o.d"
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = "CMakeFiles/bubblell.dir/stack&queues"
+
+build CMakeFiles/bubblell.dir/stack&queues/infixtopre.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/stack&queues/infixtopre.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = "CMakeFiles/bubblell.dir/stack&queues/infixtopre.cpp.o.d"
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = "CMakeFiles/bubblell.dir/stack&queues"
+
+build CMakeFiles/bubblell.dir/stack&queues/redubracket.cpp.o: CXX_COMPILER__bubblell_Debug /home/souvik150/CLionProjects/dsa-for-fat/stack&queues/redubracket.cpp || cmake_object_order_depends_target_bubblell
+  DEP_FILE = "CMakeFiles/bubblell.dir/stack&queues/redubracket.cpp.o.d"
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/bubblell.dir
+  OBJECT_FILE_DIR = "CMakeFiles/bubblell.dir/stack&queues"
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bubblell
@@ -180,7 +326,7 @@ build CMakeFiles/bubblell.dir/linkedlist/bubblell.cpp.o: CXX_COMPILER__bubblell_
 #############################################
 # Link the executable bubblell
 
-build bubblell: CXX_EXECUTABLE_LINKER__bubblell_Debug CMakeFiles/bubblell.dir/linkedlist/bubblell.cpp.o
+build bubblell: CXX_EXECUTABLE_LINKER__bubblell_Debug CMakeFiles/bubblell.dir/linkedlist/bubblell.cpp.o CMakeFiles/bubblell.dir/sorting/mainsorting.cpp.o CMakeFiles/bubblell.dir/sorting/mergesort.cpp.o CMakeFiles/bubblell.dir/sorting/quicksort.cpp.o CMakeFiles/bubblell.dir/sorting/search.cpp.o CMakeFiles/bubblell.dir/sorting/countingsort.cpp.o CMakeFiles/bubblell.dir/sorting/heapsort.cpp.o CMakeFiles/bubblell.dir/stack&queues/inftopos.cpp.o CMakeFiles/bubblell.dir/stack&queues/infixtopre.cpp.o CMakeFiles/bubblell.dir/stack&queues/redubracket.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/bubblell.dir
   POST_BUILD = :
@@ -285,7 +431,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/souvik150/CLionProjects/dsa-for-fat/cmake-build-debug
 
-build all: phony dsa_for_fat palindrome llinandout bubblell mergesorted reversell
+build all: phony dsa_for_fat bfs dfs palindrome llinandout bubblell mergesorted reversell
 
 # =============================================================================
 # Built-in targets

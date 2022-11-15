@@ -1,4 +1,5 @@
 # ninja log v5
+598	709	1668545641663084315	dfs	f8102a37e487ad92
 431	512	1668507149467086175	llinandout	bf3a6ffee9aa2c4
 0	442	1668509341095669005	CMakeFiles/bubblell.dir/linkedlist/bubblell.cpp.o	4c723a680a8f042f
 0	430	1668507149387084500	CMakeFiles/llinandout.dir/linkedlist/inandout.cpp.o	ca88c9befb311fc9
@@ -6,3 +7,4 @@
 0	434	1668507092619229173	CMakeFiles/llinandout.dir/sorting/inandout.cpp.o	3f30276a374d736d
 446	532	1668509079041628488	reversell	a2d25d24aad4cf90
 0	446	1668509078958293870	CMakeFiles/reversell.dir/linkedlist/reversell.cpp.o	82a37754e22177db
+1	598	1668545641553081607	CMakeFiles/dfs.dir/dfs.cpp.o	64b88c8fdc7635cd
